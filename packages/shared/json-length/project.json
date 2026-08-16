@@ -1,0 +1,21 @@
+{
+  "name": "json-length",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/shared/json-length/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/shared/json-length",
+        "main": "packages/shared/json-length/src/index.ts",
+        "tsConfig": "packages/shared/json-length/tsconfig.lib.json",
+        "assets": ["packages/shared/json-length/*.md"],
+        "format": ["cjs"],
+        "generatePackageJson": true
+      }
+    }
+  }
+}
