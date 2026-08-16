@@ -2,7 +2,9 @@
   "name": "@nx-multi-setup/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/core": "~22.0.4",
@@ -34,12 +36,14 @@
     "esbuild": "^0.27.0",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
+    "husky": "^9.1.7",
     "jest": "~30.3.0",
     "jest-environment-jsdom": "~30.3.0",
     "jest-environment-node": "~30.3.0",
     "jest-preset-angular": "~17.0.0",
     "jest-util": "~30.3.0",
     "jsonc-eslint-parser": "^2.1.0",
+    "lint-staged": "^17.3.0",
     "nx": "23.1.1",
     "prettier": "~3.6.2",
     "ts-jest": "^29.4.7",
