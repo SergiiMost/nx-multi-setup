@@ -4,7 +4,7 @@ This library was generated with [Nx](https://nx.dev).
 
 ## Building
 
-Run `nx build json-length` to build the library.
+Run `nx build json-length` to build the library and some update.
 
 ## Running unit tests
 
