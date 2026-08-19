@@ -1,9 +1,9 @@
-name: CI
+name: Feature
 
 on:
   push:
     branches:
-      - main
+      - feature/*
 
 permissions:
   actions: read
@@ -34,4 +34,4 @@ jobs:
 
       # Prepend any command with "nx record --" to record its logs to Nx Cloud
       # - run: npx nx record -- echo Hello World
-      - run: npx nx run-many -t lint test build
+      - run: npx nx affected -t lint test build
