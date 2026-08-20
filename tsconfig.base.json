@@ -17,7 +17,8 @@
     "paths": {
       "@nx-multi-setup/json-length": [
         "./packages/shared/json-length/src/index.ts"
-      ]
+      ],
+      "@nx-multi-setup/header": ["./packages/shared/header/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
